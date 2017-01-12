@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myModule">
+<head>
+    <meta charset="UTF-8">
+    <title>Поштовий ящик</title>
+    <link rel="shortcut icon" href="image/mail.png" type="image/png">
+    <!--Підлкючення бібліотек-->
+    <script src="https://code.angularjs.org/1.4.8/angular.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="script/module/module.js"></script>
+</head>
+<body ng-controller="MailController as mailController">
+    <div class="container-fluid">
+        <div class="row">
+            <mail-block></mail-block>
+        </div>
+    </div>
+</body>
+</html>
